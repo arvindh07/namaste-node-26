@@ -6,7 +6,7 @@ let b = 21885;
 
 setTimeout(() => {
     console.log("Calling set tiemmout after 5 seconds");
-}, 5000);
+}, 0);
 
 https.get("https://dummyjson.com/test", (res) => {
     res.resume();
